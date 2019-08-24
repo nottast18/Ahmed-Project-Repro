@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="33.222352">
+<testcase classname="Walgreens login functionality." name="1. Valid user with valid user name and password." time="33.222352">
+<system-out><![CDATA[Given user click on Your Account button.....................................passed
+Then user click on Sing in button...........................................passed
+When user enter user email as "chowdhurytaeem@gmail.com"....................passed
+When user click on Continue button..........................................passed
+Then user enter password as "nottast@18"....................................passed
+Then User click sing in button..............................................passed
+Then login success message display..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

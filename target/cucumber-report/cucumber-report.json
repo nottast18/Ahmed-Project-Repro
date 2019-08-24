@@ -1,0 +1,147 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-08-24T21:49:53.546Z",
+        "before": [
+          {
+            "result": {
+              "duration": 19639767200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "1. Valid user with valid user name and password.",
+        "description": "",
+        "id": "walgreens-login-functionality.;1.-valid-user-with-valid-user-name-and-password.",
+        "after": [
+          {
+            "result": {
+              "duration": 958273900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 263512700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on Your Account button.",
+            "match": {
+              "location": "LoginSteps.user_click_on_Your_Account_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1799596200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on Sing in button.",
+            "match": {
+              "location": "LoginSteps.user_click_on_Sing_in_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3348495600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter user email as \"chowdhurytaeem@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chowdhurytaeem@gmail.com\"",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginSteps.user_enter_user_email_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 108434600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on Continue button.",
+            "match": {
+              "location": "LoginSteps.user_click_on_Continue_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 362952600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter password as \"nottast@18\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nottast@18\"",
+                  "offset": 23
+                }
+              ],
+              "location": "LoginSteps.user_enter_password_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 97736000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click sing in button.",
+            "match": {
+              "location": "LoginSteps.user_click_sing_in_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6639994500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "login success message display.",
+            "match": {
+              "location": "LoginSteps.login_success_message_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Debug"
+          }
+        ]
+      }
+    ],
+    "name": "Walgreens login functionality.",
+    "description": "",
+    "id": "walgreens-login-functionality.",
+    "keyword": "Feature",
+    "uri": "file:login.feature",
+    "tags": []
+  }
+]

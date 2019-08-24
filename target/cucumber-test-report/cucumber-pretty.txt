@@ -1,0 +1,11 @@
+Feature: Walgreens login functionality.
+
+  @Debug
+  Scenario: 1. Valid user with valid user name and password. [90m# login.feature:3[0m
+    [32mGiven [0m[32muser click on Your Account button.[0m                 [90m# LoginSteps.user_click_on_Your_Account_button()[0m
+    [32mThen [0m[32muser click on Sing in button.[0m                       [90m# LoginSteps.user_click_on_Sing_in_button()[0m
+    [32mWhen [0m[32muser enter user email as [0m[32m[1m"chowdhurytaeem@gmail.com"[0m [90m# LoginSteps.user_enter_user_email_as(String)[0m
+    [32mWhen [0m[32muser click on Continue button.[0m                      [90m# LoginSteps.user_click_on_Continue_button()[0m
+    [32mThen [0m[32muser enter password as [0m[32m[1m"nottast@18"[0m                 [90m# LoginSteps.user_enter_password_as(String)[0m
+    [32mThen [0m[32mUser click sing in button.[0m                          [90m# LoginSteps.user_click_sing_in_button()[0m
+    [32mThen [0m[32mlogin success message display.[0m                      [90m# LoginSteps.login_success_message_display()[0m

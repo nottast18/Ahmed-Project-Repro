@@ -1,0 +1,147 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-08-24T21:29:00.449Z",
+        "before": [
+          {
+            "result": {
+              "duration": 37433861201,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "1. Drugprice details verify.",
+        "description": "",
+        "id": "walgreens-page-functionality.;1.-drugprice-details-verify.",
+        "after": [
+          {
+            "result": {
+              "duration": 1413329700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 416973800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User move mouse in Rx Refills",
+            "match": {
+              "location": "DrugPriceSteps.user_move_mouse_in_Rx_Refills()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3237191700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Druginformation button.",
+            "match": {
+              "location": "DrugPriceSteps.user_click_on_Druginformation_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 192716799,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter name in searchbox.",
+            "match": {
+              "location": "DrugPriceSteps.user_enter_name_in_searchbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 559619801,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on search button.",
+            "match": {
+              "location": "DrugPriceSteps.user_click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1207820200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify user in DrugDetailspage.",
+            "match": {
+              "location": "DrugPriceSteps.verify_user_in_DrugDetailspage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 712211899,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click View Drag details button.",
+            "match": {
+              "location": "DrugPriceSteps.user_click_View_Drag_details_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 646759201,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click price information button.",
+            "match": {
+              "location": "DrugPriceSteps.user_click_price_information_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 236784801,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify price information details.",
+            "match": {
+              "location": "DrugPriceSteps.verify_price_information_details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Debug"
+          }
+        ]
+      }
+    ],
+    "name": "Walgreens page functionality.",
+    "description": "",
+    "id": "walgreens-page-functionality.",
+    "keyword": "Feature",
+    "uri": "file:/C:/MyDevelopment/WalgreensProject/src/test/resources/DragPriceVerify.feature",
+    "tags": []
+  }
+]

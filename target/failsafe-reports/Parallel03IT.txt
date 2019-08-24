@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: Parallel03IT
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 70.527 s <<< FAILURE! - in Parallel03IT
+1. Valid user with valid user name and password.(Walgreens login functionality.)  Time elapsed: 68.646 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"div.page-container:nth-child(3) div.headerclass.headerid:nth-child(3) div.container div.row.pt10.pb10 div.col-lg-4.col-md-4.col-sm-5.wag-pos-rel div.pull-right.pt10 div.media-body.wag-account-info-wid:nth-child(1) div:nth-child(1) div.wag-pos-relative div.wag-dropdown-link div:nth-child(1) > a.wag-head-text4.wag-hn-lt-55roman"}
+  (Session info: headless chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-J8QIV4LD', ip: '192.168.84.188', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\aahme\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52876}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 61c9eabc765064e9b22991b581cc7282
+*** Element info: {Using=css selector, value=div.page-container:nth-child(3) div.headerclass.headerid:nth-child(3) div.container div.row.pt10.pb10 div.col-lg-4.col-md-4.col-sm-5.wag-pos-rel div.pull-right.pt10 div.media-body.wag-account-info-wid:nth-child(1) div:nth-child(1) div.wag-pos-relative div.wag-dropdown-link div:nth-child(1) > a.wag-head-text4.wag-hn-lt-55roman}
+

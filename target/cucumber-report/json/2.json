@@ -1,0 +1,154 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-08-24T21:29:00.493Z",
+        "before": [
+          {
+            "result": {
+              "duration": 38335111300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Empty cart verify.",
+        "description": "",
+        "id": "walgreens-product-search-functionality.;empty-cart-verify.",
+        "after": [
+          {
+            "result": {
+              "duration": 923157399,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6948217100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "search product as\"Jock Itch Treatments\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jock Itch Treatments\"",
+                  "offset": 17
+                }
+              ],
+              "location": "EmptyCartSteps.search_product_as(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12450642900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user select first product of productlist",
+            "match": {
+              "location": "EmptyCartSteps.user_select_first_product_of_productlist()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 984404200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify product name as \"Lotrimin AF Antifungal for Jock Itch, Clotrimazole Cream\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lotrimin AF Antifungal for Jock Itch, Clotrimazole Cream\"",
+                  "offset": 23
+                }
+              ],
+              "location": "EmptyCartSteps.verify_product_name_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5232734400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on add to card button.",
+            "match": {
+              "location": "EmptyCartSteps.user_click_on_add_to_card_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8386134801,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click cartview button",
+            "match": {
+              "location": "EmptyCartSteps.user_click_cartview_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 53579201,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify user in cartpage",
+            "match": {
+              "location": "EmptyCartSteps.verify_user_in_cartpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 300123400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on remove button",
+            "match": {
+              "location": "EmptyCartSteps.user_click_on_remove_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 797871099,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify cartempty massage display",
+            "match": {
+              "location": "EmptyCartSteps.verify_cartempty_massage_display()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Walgreens product search functionality.",
+    "description": "",
+    "id": "walgreens-product-search-functionality.",
+    "keyword": "Feature",
+    "uri": "file:/C:/MyDevelopment/WalgreensProject/src/test/resources/emptycart.feature",
+    "tags": []
+  }
+]
